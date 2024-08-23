@@ -1,0 +1,46 @@
+h1.mi-nombre {
+    color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p.info {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+body {
+background-color: beige;
+}
+
+.imagen-luna {
+width: 350px;
+height: auto;
+border-radius: 25px;
+
+}
+
+.datos{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: small;
+
+}
+
+.hello-kitty {
+width: 350px;
+height: auto;
+border-radius: 25px;
+}
+
+h1.mi-nombre-sobremi {
+    color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+h1.contacto {
+    color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
