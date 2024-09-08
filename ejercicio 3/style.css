@@ -1,0 +1,47 @@
+      .container {
+        max-width: 900px;
+        margin-inline: auto;
+        background-color: #ecbbe1;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container_header {
+        display: flex;
+        align-items: center;
+        background-color: #bbece3;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container_header h3 {
+        margin-inline-end: auto;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container_body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      img,
+      video {
+        max-width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      @media (max-width: 800px) {
+        .container_body {
+          grid-template-columns: unset;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+      .access {
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .access__content {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        padding: 20px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
