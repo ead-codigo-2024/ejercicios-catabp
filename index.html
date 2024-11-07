@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio web</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+         ::-webkit-scrollbar {
+            width: 12px; /* Ancho de la barra de desplazamiento */
+        }
+
+        /* Cambia el color del "track" (el área de fondo de la scrollbar) */
+        ::-webkit-scrollbar-track {
+            background-color: #EDF6F9; /* Fondo claro */
+        }
+
+        /* Cambia el color del "thumb" (la barra que se desliza) */
+        ::-webkit-scrollbar-thumb {
+            background-color: #83C5BE; /* Color del deslizador */
+            border-radius: 10px; /* Redondea las esquinas */
+        }
+
+        /* Cambia el color del deslizador cuando se pasa el cursor por encima */
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #83C5BE; /* Color más oscuro al pasar el cursor */
+        }
+
+        /* Para que haya algo de contenido en la página */
+        body {
+            height: 200vh;
+            margin: 0;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!--encabezado-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#proyectos">Ejercicios</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Portafolio diseño desde el código 2024</h1>
+        <p>Catalina Brito Puga</p>
+    </section>
+
+    <!--2da parte pag web-->
+    <div class="container">
+        <div class="content">
+            <div class="text-section" id="proyectos">
+                <h1>Ejercicios</h1>
+                <p>En esta sección se pueden observar los ejercicios realizados en clases los cuales fueron un total de 4.</p>
+                <div class="button_space"><a href="https://wiki.ead.pucv.cl/Dise%C3%B1o_desde_el_C%C3%B3digo_2024" class="button_dos">Wiki Diseño desde el código</a></div>
+            </div>
+            <div class="gallery">
+                <div class="item">
+                    <a href="ejercicio 1/index.html" target="_blank">
+                        <img src="imagenes/imagenejercicio1.jpg" alt="PagwebCata">
+                        <p>Pagina web: sobre mi</p>
+                    </a>
+                    <span>Ejercicio 1</span>
+                </div>
+                <div class="item">
+                    <a href="ejercicio 2/actividad.html" target="_blank">
+                        <img src="imagenes/imagenejercicio2.jpg" alt="Ejercicio2">
+                        <p>Diseño en figma</p>
+                    </a>
+                    <span>Ejercicio 2</span>
+                </div>
+                <!-- Añadir más imágenes aquí -->
+                <div class="item">
+                    <a href="ejercicio 3/ejercicio3.html" target="_blank">
+                        <img src="imagenes/imagenejercicio3.jpg" alt="RecreacionWebPucv">
+                        <p>Recreación web PUCV</p>
+                    </a>
+                    <span>Ejercicio 3</span>
+                </div>
+                <div class="item">
+                    <a href="ejercicio 5/ejercicio5cuestionario.html" target="_blank">
+                        <img src="imagenes/imagenejercicio4.jpg" alt="Formulario">
+                        <p>Formulario</p>
+                    </a>
+                    <span>Ejercicio 4</span>
+                </div>              
+            </div>
+        </div>
+    </div>
+
+    <!--3ra parte pag web-->
+    <section class="feature-section" id="about">
+        <div class="feature-container">
+            <div class="feature-text">
+                <h1>Catalina Brito Puga</h1>
+                <p>Estudiante de diseño de la PUCV</p>
+                <div class="button_tres"> <a href="https://wiki.ead.pucv.cl/Catalina_Brito_Puga_-_Revista_practica,_de_Paula" class="feature-button">Wiki personal</a> </div>
+            </div>
+            <div class="feature-image">
+                <img src="imagenes/catabritoimagen.jpg" alt="Catalina Brito" height="400px" width="400px">
+            </div>
+        </div>
+    </section>
+
+    <!--4ta parte pag web - Contacto-->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h1>Contacto</h1>
+            <p><strong>Correo institucional</strong> catalina.brito.p@mail.pucv.cl</p>
+            <p><strong>Número de celular</strong> +56975705421</p>
+            <p><strong>Universidad:</strong> Pontificia Universidad Católica de Valparaíso</p>
+        </div>
+    </section>
+</body>
+</html>
